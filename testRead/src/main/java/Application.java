@@ -8,5 +8,6 @@ public class Application{
         System.out.println(a + c - 1);
         System.out.println(a + c - 5);
         System.out.println(a + c + 14);
+        // тут что то исправил
     }
 }
