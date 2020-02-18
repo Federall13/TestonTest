@@ -5,5 +5,8 @@ public class Application{
         int a = 5;
         int c = 10;
         System.out.println(a + c);
+        System.out.println(a + c - 1);
+        System.out.println(a + c - 5);
+        System.out.println(a + c + 14);
     }
 }
