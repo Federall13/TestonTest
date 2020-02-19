@@ -1,4 +1,4 @@
-package main.java;
+
 
 public class Human {
    private String name;
