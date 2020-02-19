@@ -1,9 +1,9 @@
 package main.java;
 
 public class Human {
-    String name;
-    String lastName;
-    int age;
+   private String name;
+   private String lastName;
+   private int age;
 
     public String getName() {
         return name;
