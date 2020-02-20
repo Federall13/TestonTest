@@ -28,7 +28,7 @@ public class Human {
 
     @Override
     public String toString() {
-        return name + lastName + " " +age;
+        return name + " " + lastName + " " +age;
     }
 
     @Override
