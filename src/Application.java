@@ -13,9 +13,3 @@ public class Application {
         System.out.println(human.equals(human1));
     }
 }
-
-
-
-
-
-
