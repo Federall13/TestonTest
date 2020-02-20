@@ -4,6 +4,18 @@ public class Application {
         human.setName("Митя");
         human.setLastName(" Тутукаридзе");
         human.setAge(32);
-        System.out.println(human.toString());
+
+        Human human1 = new Human();
+        human1.setName("Митя");
+        human1.setLastName(" Тутукаридзе");
+        human1.setAge(32);
+
+        System.out.println(human.equals(human1));
     }
 }
+
+
+
+
+
+

@@ -1,12 +1,8 @@
+import java.util.Objects;
 public class Human {
    private String name;
    private String lastName;
    private int age;
-
-    @Override
-    public String toString() {
-        return name + lastName + " " +age;
-    }
 
     public String getName() {
         return name;
@@ -29,4 +25,20 @@ public class Human {
     }
 
     public void setAge(int age) { this.age = age; }
+
+    @Override
+    public String toString() {
+        return name + lastName + " " +age;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Human human = (Human) o;
+        return age == human.age &&
+                Objects.equals(name, human.name) &&
+                Objects.equals(lastName, human.lastName);
+    }
 }
+
