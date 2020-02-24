@@ -1,5 +1,5 @@
 import java.util.Objects;
-public class Human {
+public class Human implements Needs {
     private String name;
     private String lastName;
     private int age;
@@ -51,6 +51,11 @@ public class Human {
         return age == human.age &&
                 Objects.equals(name, human.name) &&
                 Objects.equals(lastName, human.lastName);
+    }
+
+    @Override
+    public void shit() {
+        System.out.println(" Человек какает ");
     }
 }
 

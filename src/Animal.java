@@ -1,4 +1,9 @@
 
 
-public class Animal { //Этот класс из ветки develop2
+public class Animal implements Needs{
+    @Override
+    public void shit() {
+        System.out.println("Животное какает");
+
+    }
 }
